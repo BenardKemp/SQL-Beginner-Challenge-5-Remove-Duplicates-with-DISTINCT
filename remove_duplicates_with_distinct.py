@@ -5,7 +5,7 @@ def remove_duplicates_with_distinct():
     conn = sqlite3.connect("example.db")
     cursor = conn.cursor()
 
-    # SQL query for Challenge #1
+    # SQL query for Challenge #5
     query = "SELECT DISTINCT category FROM products"
 
     cursor.execute(query)
